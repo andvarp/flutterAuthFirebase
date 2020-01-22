@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "975321740853",
+    "firebase_url": "https://flutter-firebase-auth-ex.firebaseio.com",
+    "project_id": "flutter-firebase-auth-ex",
+    "storage_bucket": "flutter-firebase-auth-ex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975321740853:android:3041e599a83c676d1b237c",
+        "android_client_info": {
+          "package_name": "com.andvarp.authFirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975321740853-fa1hjjr0k0k5kpjn5sik9nskrioj0pju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.andvarp.authFirebase",
+            "certificate_hash": "c906d55bd9648405472bc8316daf9520d2d0b0a0"
+          }
+        },
+        {
+          "client_id": "975321740853-qbikef4rs1ve0d3bup52hjq7jubie2so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyMEydzBJ9wsvu96nVlfqWUamY7_DD-oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975321740853-qbikef4rs1ve0d3bup52hjq7jubie2so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
