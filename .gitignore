@@ -42,3 +42,5 @@ GoogleService-Info.plist
 
 #code signin
 keystore.jks
+key.properties
+appKey.keystore
