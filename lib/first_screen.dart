@@ -31,15 +31,15 @@ class FirstScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              imageUrl != null
-                  ? CircleAvatar(
-                      backgroundImage: NetworkImage(
-                        imageUrl,
-                      ),
-                      radius: 60,
-                      backgroundColor: Colors.transparent,
-                    )
-                  : null,
+              CircleAvatar(
+                backgroundImage: NetworkImage(
+                  imageUrl.length == 0
+                      ? 'https://img.icons8.com/ios-filled/344/user.png'
+                      : imageUrl,
+                ),
+                radius: 60,
+                backgroundColor: Colors.transparent,
+              ),
               SizedBox(height: 40),
               Text(
                 'NAME',
