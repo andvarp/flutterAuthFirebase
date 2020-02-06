@@ -5,6 +5,18 @@ import 'package:authFirebase/sign_in.dart';
 class FirstScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    print('****************************');
+    print('****************************');
+    print('****************************');
+    print('****************************');
+    print(imageUrl);
+    print(email);
+    print(name);
+    print('****************************');
+    print('****************************');
+    print('****************************');
+    print('****************************');
+
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
@@ -19,13 +31,15 @@ class FirstScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              CircleAvatar(
-                backgroundImage: NetworkImage(
-                  imageUrl,
-                ),
-                radius: 60,
-                backgroundColor: Colors.transparent,
-              ),
+              imageUrl != null
+                  ? CircleAvatar(
+                      backgroundImage: NetworkImage(
+                        imageUrl,
+                      ),
+                      radius: 60,
+                      backgroundColor: Colors.transparent,
+                    )
+                  : null,
               SizedBox(height: 40),
               Text(
                 'NAME',
